@@ -1,14 +1,9 @@
 body {
-  background-color: #f0f0f0;
-  font-family: Arial, sans-serif;
-}
-
-h1 {
-  color: #333333;
-  text-align: center;
-}
-
-p {
-  font-size: 18px;
-  color: #666666;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.7Bz9LQ3BqXkz891ryafi6wHaEK%26pid%3DApi&f=1&ipt=0be77965be14dc382386c0ddb1db894def5994266388b4568156e67555109776&ipo=images');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
