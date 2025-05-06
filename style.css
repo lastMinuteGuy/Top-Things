@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #222;
+  padding-top: 30px;
+  text-align: center;
+}
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+.sidebar a:hover {
+  background-color: #555;
+}
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 40px;
+}
+.button-group {
+  margin-top: 50px;
+}
+.big-button {
+  display: inline-block;
+  padding: 20px 40px;
+  margin: 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.big-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.product-image {
+  width: 300px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+.official-link {
+  font-size: 18px;
+  color: #007BFF;
+  text-decoration: none;
+}
+.official-link:hover {
+  text-decoration: underline;
+}
+
+.small-button-group {
+  margin-top: 20px;
+}
+
+.small-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 10px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+  background-color: #0056b3;
+}
+
+/* Make website responsive */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .content {
+    margin-left: 0;
+  }
+  .big-button, .small-button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .product-image {
+    width: 80%;
+  }
+}
+
+/* Footer styling */
+footer {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  color: #aaa;
+  background: transparent;
+}
